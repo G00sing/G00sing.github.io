@@ -1,0 +1,170 @@
+.logo-left {
+    width: 4em;
+    height: auto;
+}
+
+.logo-right {
+    width: 7em;
+    height: auto;
+}
+
+
+
+
+/*
+    Overwrite bootstrap's border between card-header and the following section
+*/
+.card-header {
+    border-bottom: none;
+}
+
+.card-header .btn {
+    display: block;
+}
+
+.card-header + .collapse.show {
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+
+
+
+/*
+    The Grid-Like Menu in the top navigation bar
+    This is the Wrapper For everything
+*/
+.menu-wrapper {
+    position: relative;
+}
+
+.menu-wrapper i:hover {
+    color: #e68f1a;
+}
+
+/*
+    The Grid-Like Menu in the top navigation bar
+    This is the button that shows and hides the menu
+*/
+.menu-wrapper .menu-button {
+    display: block;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+/*
+    The Grid-Like Menu in the top navigation bar
+    This is the menu container element
+*/
+.menu-wrapper .menu {
+    font-size: 1em;
+    background-color: #ffffff;
+    padding: 2em;
+    min-width: 25em;
+    /* border: 1px solid black; */
+    display: none;
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+/*
+    The Grid-Like Menu in the top navigation bar
+    Adding the 'showing' class to the menu will make
+    it visible. (Handled in javascript)
+*/
+.menu-wrapper .menu.showing {
+    display: block;
+}
+
+.menu-wrapper .menu.hiding {
+    display: none;
+}
+
+/*
+    The Grid-Like Menu in the top navigation bar
+    Each row of icons in the menu need vertical
+    spacing from the rows below it
+*/
+.menu-wrapper .menu .row:not(:last-child) {
+    padding-bottom: 4em;
+}
+
+/*
+    The Grid-Like Menu in the top navigation bar
+    The clickable menu items (icon and maybe caption text)
+*/
+.menu-wrapper .menu a {
+    display: block;
+    text-decoration: none;
+    transition: color .25s linear;
+    /* Matches Brand Grey */
+    color: #797a7d; 
+}
+
+/*
+    The Grid-Like Menu in the top navigation bar
+    The active state for a menu item
+*/
+.menu-wrapper .menu a.active {
+    /* Matches Brand Orange - Tangerine */
+    color: #e68f1a;
+}
+
+/*
+    The Grid-Like Menu in the top navigation bar
+    The hover state for a menu item
+*/
+.menu-wrapper .menu a:hover {
+    color: #e68f1a;
+}
+
+/*
+    The Grid-Like Menu in the top navigation bar
+    The icon for each menu item
+*/
+.menu-wrapper .menu a i {
+    font-size: 3em;
+}
+
+/*
+    The Grid-Like Menu in the top navigation bar
+    The caption text for each menu item
+*/
+.menu-wrapper .menu a span {
+    display: block;
+    font-size: 0.75em;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+/*
+    The Grid-Like Menu in the top navigation bar
+    The top triangle (arrow-like) thing
+*/
+.menu-wrapper .menus:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: -1em;
+    
+    transform: translate(-50%, 0);
+    border-left: 1em solid #000000;
+    border-right: 1em solid transparent;
+    border-bottom: 1em solid #b10000;
+}
+
+.hover-nav :hover{ 
+    color: #000000; 
+    background-color: #797a7d;
+    border-bottom: #000000;
+    border: solid;
+}
+

@@ -1,0 +1,307 @@
+/*
+    Background Colors
+*/
+.bg-asphalt { 
+    background-color: #000000; 
+}
+
+.bg-eggshell {
+    background-color: #ffffff;
+}
+
+.bg-almost-black {
+    background-color: #3a383a; /* Same almost black as SAGE */
+}
+
+.bg-blorange {
+    background-color: #ef7600;
+}
+
+.bg-eggplant {
+    background-color: #71588f;
+}
+
+.bg-kiwi {
+    background-color: #77933c;
+}
+
+.bg-charcoal {
+    background-color: #797a7d; /* Brand Grey */
+}
+
+.bg-smokey {
+    background-color: #e9eaeb; /* Lighter Brand Grey */
+}
+
+.bg-smokier {
+    background-color: #34393e; /* Lighter Brand Grey */
+}
+
+.bg-smokest {
+    background-color: #212529; /* Lighter Brand Grey */
+}
+
+.bg-tangerine {
+    background-color: #e68f1a; /* Brand Orange */
+}
+
+.bg-apple {
+    background-color: red;
+}
+
+.bg-sour {
+    background-color: #369040;
+}
+
+.bg-lemon {
+    background-color: #fff600;
+}
+
+.bg-pinky {
+    background-color: #da9694;
+}
+
+.bg-grass {
+    background-color: #92d050;
+}
+
+.bg-silver {
+    background-color: #a6a6a6;
+}
+
+.bg-grape {
+    background-color: #344e95;
+}
+
+.bg-blueberry {
+    background-color: #1d93d0;
+}
+
+.bg-tomerry {
+    background-color: #e54e4e;
+}
+
+.bg-myrtle {
+    background-color: #003366;
+}
+
+.bg-angle {
+    background-image: repeating-linear-gradient(45deg, #b7b7b7 0px, #b7b7b7 1px, #575757 0px, #575757 2px);
+}
+
+.bg-straight {
+    background-image: repeating-linear-gradient(180deg, #b7b7b7 0px, #b7b7b7 1px, #575757 0px, #575757 2px);
+}
+
+.bg-dotted {
+    background-image: -webkit-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+    background-image: -moz-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+    background-image: -ms-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+    background-image: repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+    -webkit-background-size: 3px 3px;
+    -moz-background-size: 3px 3px;
+    background-size: 3px 3px;
+}
+
+/*
+    Font Colors
+*/
+.txt-asphalt,
+.txt-asphalt:visited { 
+    color: #000000; 
+}
+
+.txt-eggshell,
+.txt-eggshell:visited { 
+    color: #ffffff !important; 
+}
+
+.txt-almost-black,
+.txt-almost-black:visited {
+    color: #3a383a;
+}
+
+.txt-blorange,
+.txt-blorange:visited {
+    color: #ef7600;
+}
+
+.txt-eggplant,
+.txt-eggplant:visited {
+    color: #71588f;
+}
+
+.txt-kiwi,
+.txt-kiwi:visited {
+    color: #77933c;
+}
+
+.txt-charcoal,
+.txt-charcoal:visited {
+    color: #797a7d;
+}
+
+.txt-smokey,
+.txt-smokey:visited {
+    color: #e9eaeb !important;
+}
+
+.txt-smokier,
+.txt-smokier:visited {
+    color: #34393e !important;
+}
+
+.txt-smokest,
+.txt-smokest:visited {
+    color: #212529 !important;
+}
+
+.txt-tangerine,
+.txt-tangerine:visited {
+    color: #e68f1a; /* Brand Orange */
+}
+
+.txt-lime,
+.txt-lime:visited {
+    color: #3ab050;
+}
+
+.txt-apple,
+.txt-apple:visited {
+    color: red;
+}
+
+.txt-sour,
+.txt-sour:visited {
+    color: #369040;
+}
+
+.txt-neon-green,
+.txt-neon-green:visited {
+    color: #4fe587 !important;
+}
+
+.txt-grape,
+.txt-grape:visited {
+    color: #344e95;
+}
+
+.txt-blueberry,
+.txt-blueberry:visited {
+    color: #1d93d0;
+}
+
+.txt-tomerry,
+.txt-tomerry:visited {
+    color: #e54e4e;
+}
+
+.txt-myrtle,
+.txt-myrtle:visited {
+    color: #003366 !important;
+} 
+
+
+/*
+    Border Colors
+*/
+.border-asphalt { 
+    border-color: #000000 !important; 
+}
+
+.border-eggshell {
+    border-color: #ffffff;
+}
+
+.border-almost-black {
+    border-color: #3a383a;
+}
+
+.border-blorange {
+    border-color: #ef7600;
+}
+
+.border-eggplant {
+    border-color: #71588f;
+}
+
+.border-kiwi {
+    border-color: #77933c;
+}
+
+.border-charcoal {
+    border-color: #797a7d;
+}
+
+.border-smokey {
+    border-color: #e9eaeb;
+}
+
+
+.border-tangerine {
+    border-color: #e68f1a !important; /* Brand Orange */
+}
+
+.border-sour {
+    border-color: #369040;
+}
+
+.border-grape {
+    border-color: #344e95;
+}
+
+.border-blueberry {
+    border-color: #1d93d0;
+}
+
+.border-tomerry {
+    border-color: #e54e4e;
+}
+
+.border-myrtle {
+    border-color: #003366 !important;
+}
+
+
+
+/*
+    Background Images
+
+    Any element with bg-image on it, should also have a 
+    style="background-image: url()" set as well.
+    The image is set per page. The styles of the image can
+    be controlled here.
+*/
+.bg-image {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 50px;
+  background-size: 100%, 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after {
+  content: '>';
+  font-size: 55px;
+  color: #003366;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #003366;
+} */
+
+.bg-table-background {
+    background-color: #f5f5f5;
+}
+
+.card-header.bg-myrtle:not(:has(+ div.collapse.show)) {
+    border-radius: 0.4rem;
+  }

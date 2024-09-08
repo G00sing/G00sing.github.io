@@ -1,0 +1,69 @@
+/** When you want a magnifying glass icon to show over top of an image, to 
+	indicate that it can be clicked on for 'zooming' effect...
+	Wrap the image in an anchor tag, so that when you click it it will open
+	the image.
+	Add the class 'hover-zoom' to the anchor tag you just made. **/
+
+.hover-zoom {
+    position: relative;
+    /* The :after is pos: absolute */
+    display: inline-block;
+    /* So the anchor will have width and height */
+}
+
+.hover-zoom:hover:after {
+    content: '';
+    background-image: url('../../tmp_assets/fonts/SVG/zoom.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    /* Up and left 50% of width and height of image */
+    display: block;
+    width: 75px;
+    height: 75px;
+    opacity: .5;
+}
+
+/*
+    Make something be a max width of:
+*/
+
+.max-w-10em {
+    max-width: 10em;
+}
+
+.max-w-5em {
+    max-width: 5em;
+}
+
+.max-w-3em {
+    max-width: 3em;
+}
+
+.max-w-2em {
+    max-width: 2em;
+}
+
+.max-w-1em {
+    max-width: 1em;
+}
+
+.hr-2 {
+    width: 100%;
+    height: 1px;
+    background: #e68f1a;    
+}
+
+.bg-image {
+    background-image: url("../images/specific/2.JPG"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    opacity: 0.2;
+}

@@ -1,11 +1,393 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello Justin</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="images/specific/favicon.png">
+  <title>MBG 2024</title>
+
+  <!-- Favicon -->
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Custom CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/topnav.css">
+  <link rel="stylesheet" href="./css/icomoon.css">
+  <link rel="stylesheet" href="./css/colors.css">
+  <link rel="stylesheet" href="./css/typography.css">
+  <link rel="stylesheet" href="./css/table.css">
+  <link rel="stylesheet" href="./css/iconbar.css">
+  <link rel="stylesheet" href="./css/image.css">
+  <link rel="stylesheet" href="./css/info-grid.css">
 </head>
+
+
 <body>
-    <h1>Hello Justin</h1>
+
+  <!-- Top Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid mx-3 border-bottom border-asphalt">
+      <a class="navbar-brand" href="./index.html">
+        <img src="./images/specific/logo-top.svg" alt="" width="50" height="auto" class="d-inline-block align-text-top">
+        MBG<sup>&copy;</sup>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">
+              <span class="txt-charcoal"><strong>HOME</strong></span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./daily-plan.html">
+              <span class="txt-charcoal"><strong>DAILY-PLAN</strong></span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./leaderboard.html">
+              <span class="txt-charcoal"><strong>LEADERBOARD</strong></span>
+            </a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span class="txt-charcoal"><strong>COURSES</strong></span>
+            </a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="./photo.html">
+              <span class="txt-charcoal"><strong>PHOTOS</strong></span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./games.html">
+              <span class="txt-charcoal"><strong>GAMES</strong></span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span class="txt-charcoal"><strong>HANDICAP</strong></span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://drive.google.com/drive/folders/1dFQkLhO3VX6QbfJ49xX2Y98Kl62f1ycd?usp=drive_link" target="_blank">
+              <span class="txt-charcoal"><strong>G-DRIVE</strong></span>
+            </a>
+          </li>
+        </ul>
+        <!-- <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form> -->
+      </div>
+    </div>
+  </nav>
+
+  <!-- background of main content -->
+  <div class="main-content">
+    <div class="container-fluid my-3">
+      <div class="row">
+        <div class="col col-lg-8 col-md-10 offset-lg-2 offset-md-1">
+
+          <div class="container-fluid">
+            <div class="row txt-charcoal font-size-8em border-bottom border-asphalt">
+              <div class="col-3 col-md-2">
+                DATE
+              </div>
+              <div class="col-3 col-md-2">
+                COURSE-EVENT
+              </div>
+              <div class="col-3 col-md-2">
+                TIME
+              </div>
+              <div class="col-3 col-md-2">
+                TIME
+              </div>
+              <div class="col-0 col-md-4 text-end d-none d-md-block">
+                ADDRESS
+              </div>
+            </div>
+            <div class="row border-bottom border-charcoal py-3 font-size-8em">
+              <div class="col-3 col-md-2 border-end border-charcoal ">
+                Sat, Sept. 21, 2024
+              </div>
+              <div class="col-3 col-md-2 border-end border-charcoal">
+                Southwest-Black Tide Affairs
+              </div>
+              <div class="col-3 col-md-2 border-end border-charcoal">
+                Landing: 2:00pm
+              </div>
+              <div class="col-3 col-md-2">
+                Check-In: 4:00pm
+              </div>
+              <div class="col-0 col-md-4 text-end d-none d-md-block">
+                <a href="https://www.google.com/maps/dir//732+S+Waccamaw+Dr,+Murrells+Inlet,+SC+29576/@33.5695077,-79.0054199,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x8900474c93be2bb9:0xe0f6bfad842f5d2f!2m2!1d-79.0054199!2d33.5695077!3e0?entry=ttu"
+                  target="_blank">
+                  732 S. WACCAMAW DR., GARDEN CITY, SC 29576
+                </a>
+              </div>
+              <div class="row d-block d-md-none font-size-8em pt-2 text-center">
+                <div class="col">
+                  <a href="https://www.google.com/maps/dir//732+S+Waccamaw+Dr,+Murrells+Inlet,+SC+29576/@33.5695077,-79.0054199,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x8900474c93be2bb9:0xe0f6bfad842f5d2f!2m2!1d-79.0054199!2d33.5695077!3e0?entry=ttu"
+                    target="_blank">
+                    732 S. WACCAMAW DR., GARDEN CITY, SC 29576
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="row border-bottom border-charcoal py-3 font-size-8em">
+              <div class="col-3 col-md-2 border-end border-charcoal">
+                <strong>Sun, Sept. 22, 2024</strong>
+              </div>
+              <div class="col-3 col-md-2 border-end border-charcoal">
+                <a href="https://wachesaweast.com/" target="_blank"><strong class="txt-myrtle">Wachesaw
+                    East</strong></a>
+              </div>
+              <div class="col-3 col-md-2 border-end border-charcoal">
+                <strong class="txt-myrtle">Departure: 8:00am</strong>
+              </div>
+              <div class="col-3 col-md-2">
+                <strong class="txt-myrtle">Tee: 9:00am</strong>
+              </div>
+              <div class="col-0 col-md-4 text-end d-none d-md-block">
+                <a href="https://www.google.com/maps/dir//911+Riverwood+Dr+%2317,+Murrells+Inlet,+SC+29576/@33.5603105,-79.0464404,16z/data=!4m9!4m8!1m0!1m5!1m1!1s0x890038c14b6ee3d1:0xd537027fc9a9e5aa!2m2!1d-79.0464404!2d33.5603105!3e0?entry=ttu"
+                  target="_blank">
+                  911 Riverwood Dr., Highway 17, Murrells Inlet, SC 29576
+                </a>
+              </div>
+              <div class="row d-block d-md-none font-size-8em pt-2 text-center">
+                <div class="col">
+                  <a href="https://www.google.com/maps/dir//911+Riverwood+Dr+%2317,+Murrells+Inlet,+SC+29576/@33.5603105,-79.0464404,16z/data=!4m9!4m8!1m0!1m5!1m1!1s0x890038c14b6ee3d1:0xd537027fc9a9e5aa!2m2!1d-79.0464404!2d33.5603105!3e0?entry=ttu"
+                    target="_blank">
+                    911 Riverwood Dr., Highway 17, Murrells Inlet, SC 29576
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="row border-bottom border-charcoal py-3 font-size-8em">
+              <div class="col-3 col-md-2 border-end border-charcoal">
+                <strong>Mon, Sept. 23, 2024</strong>
+              </div>
+              <div class="col-3 col-md-2 border-end border-charcoal">
+                <a href="https://www.myrtlewoodgolf.com/hole-photos-and-scorecard/" target="_blank"><strong
+                    class="txt-myrtle">Myrtlewood Palmetto</strong></a>
+              </div>
+              <div class="col-3 col-md-2 border-end border-charcoal">
+                <strong class="txt-myrtle">Departure: 8:15am</strong>
+              </div>
+              <div class="col-3 col-md-2">
+                <strong class="txt-myrtle">Tee: 9:30am</strong>
+              </div>
+              <div class="col-0 col-md-4 text-end d-none d-md-block">
+                <a href="https://www.google.com/maps/dir//1500+48th+Ave+Ext+N,+Myrtle+Beach,+SC+29577/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x890068d9da690681:0x659cafef92f0be91?sa=X&ved=1t:155782&ictx=111"
+                  target="_blank">
+                  1500 48th Ave Ext N, Myrtle Beach, SC 29577
+                </a>
+              </div>
+              <div class="row d-block d-md-none font-size-8em pt-2 text-center">
+                <div class="col">
+                  <a href="https://www.google.com/maps/dir//1500+48th+Ave+Ext+N,+Myrtle+Beach,+SC+29577/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x890068d9da690681:0x659cafef92f0be91?sa=X&ved=1t:155782&ictx=111"
+                    target="_blank">
+                    1500 48th Ave Ext N, Myrtle Beach, SC 29577
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="row border-bottom border-charcoal py-3 font-size-8em">
+              <div class="col-3 col-md-2 border-end border-charcoal">
+                <strong>Tues, Sept. 24, 2024</strong>
+              </div>
+              <div class="col-3 col-md-2 border-end border-charcoal">
+                <a href="https://www.pawleysplantation.com/" target="_blank"><strong class="txt-myrtle">Pawleys
+                    Plantation</strong></a>
+              </div>
+              <div class="col-3 col-md-2 border-end border-charcoal">
+                <strong class="txt-myrtle">Departure: 8:00am</strong>
+              </div>
+              <div class="col-3 col-md-2">
+                <strong class="txt-myrtle">Tee: 9:12am</strong>
+              </div>
+              <div class="col-0 col-md-4 text-end d-none d-md-block">
+                <a href="https://www.google.com/maps/dir//70+Tanglewood+Dr,+Pawleys+Island,+SC+29585/@33.4198743,-79.1438403,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x8900317001115a05:0x3506c2dc0bc97d22!2m2!1d-79.1438403!2d33.4198743!3e0?entry=ttu"
+                  target="_blank">
+                  70 Tanglewood Dr, Pawleys Island, SC 29585
+                </a>
+              </div>
+              <div class="row d-block d-md-none font-size-8em pt-2 text-center">
+                <div class="col">
+                  <a href="https://www.google.com/maps/dir//70+Tanglewood+Dr,+Pawleys+Island,+SC+29585/@33.4198743,-79.1438403,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x8900317001115a05:0x3506c2dc0bc97d22!2m2!1d-79.1438403!2d33.4198743!3e0?entry=ttu"
+                    target="_blank">
+                    70 Tanglewood Dr, Pawleys Island, SC 29585
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="row border-bottom border-charcoal py-3 font-size-8em">
+              <div class="col-3 col-md-2 border-end border-charcoal">
+                <strong>Wed, Sept. 25, 2024</strong>
+              </div>
+              <div class="col-3 col-md-2 border-end border-charcoal">
+                <a href="https://www.mysticalgolf.com/the-wizard/" target="_blank"><strong
+                    class="txt-myrtle">Wizard</strong></a>
+              </div>
+              <div class="col-3 col-md-2 border-end border-charcoal">
+                <strong class="txt-myrtle">Departure: 8:00am</strong>
+              </div>
+              <div class="col-3 col-md-2">
+                <strong class="txt-myrtle">Tee: 9:16am</strong>
+              </div>
+              <div class="col-0 col-md-4 text-end d-none d-md-block">
+                <a href="https://www.google.com/maps/dir//4601+Leeshire+Blvd,+Myrtle+Beach,+SC+29579/@33.77217,-78.9645277,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x89006c5ce92fb037:0x79ff85a08b22e831!2m2!1d-78.9645277!2d33.77217!3e0?entry=ttu"
+                  target="_blank">
+                  4601 Leeshire Blvd, Myrtle Beach, SC 29579
+                </a>
+              </div>
+              <div class="row d-block d-md-none font-size-8em pt-2 text-center">
+                <div class="col">
+                  <a href="https://www.google.com/maps/dir//4601+Leeshire+Blvd,+Myrtle+Beach,+SC+29579/@33.77217,-78.9645277,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x89006c5ce92fb037:0x79ff85a08b22e831!2m2!1d-78.9645277!2d33.77217!3e0?entry=ttu"
+                    target="_blank">
+                    4601 Leeshire Blvd, Myrtle Beach, SC 29579
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="row border-bottom border-charcoal py-3 font-size-8em">
+              <div class="col-3 col-md-2 border-end border-charcoal">
+                <strong>Thurs, Sept. 26, 2024</strong>
+              </div>
+              <div class="col-3 col-md-2 border-end border-charcoal">
+                <a href="https://www.myrtlebeachnational.com/southcreek-hole-by-hole/" target="_blank"><strong
+                    class="txt-myrtle">MBN South Creek</strong></a>
+              </div>
+              <div class="col-3 col-md-2 border-end border-charcoal">
+                <strong class="txt-myrtle">Departure: 8:00am</strong>
+              </div>
+              <div class="col-3 col-md-2">
+                <strong class="txt-myrtle">Tee: 9:21am</strong>
+              </div>
+              <div class="col-0 col-md-4 text-end d-none d-md-block">
+                <a href="https://www.google.com/maps/dir//4900+National+Dr,+Myrtle+Beach,+SC+29579/@33.79179,-78.9661685,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x89006c5400bc520b:0xfd4528b4a5450606!2m2!1d-78.9661685!2d33.79179!3e0?entry=ttu"
+                  target="_blank">
+                  4900 National Dr, Myrtle Beach, SC 29579
+                </a>
+              </div>
+              <div class="row d-block d-md-none font-size-8em pt-2 text-center">
+                <div class="col">
+                  <a href="https://www.google.com/maps/dir//4900+National+Dr,+Myrtle+Beach,+SC+29579/@33.79179,-78.9661685,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x89006c5400bc520b:0xfd4528b4a5450606!2m2!1d-78.9661685!2d33.79179!3e0?entry=ttu"
+                    target="_blank">
+                    4900 National Dr, Myrtle Beach, SC 29579
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="row border-bottom border-charcoal py-3 font-size-8em">
+              <div class="col-3 col-md-2 border-end border-charcoal">
+                Fri, Sept. 27, 2024
+              </div>
+              <div class="col-3 col-md-2 border-end border-charcoal">
+                TBD-Open
+              </div>
+              <div class="col-3 col-md-2 border-end border-charcoal">
+                Departure: TBD
+              </div>
+              <div class="col-3 col-md-2">
+                Time: TBD
+              </div>
+              <div class="col-0 col-md-4 text-end d-none d-md-block">
+                TBD
+              </div>
+              <div class="row d-block d-md-none font-size-8em pt-2 text-center">
+                <div class="col">
+                  <a href="#" target="_blank">
+                    TBD
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="row border-bottom border-charcoal py-3 font-size-8em">
+              <div class="col-3 col-md-2 border-end border-charcoal">
+                Sat, Sept. 28, 2024
+              </div>
+              <div class="col-3 col-md-2 border-end border-charcoal">
+                Southwest
+              </div>
+              <div class="col-3 col-md-2 border-end border-charcoal">
+                Check-Out: 11:00am
+              </div>
+              <div class="col-3 col-md-2">
+                Plane: 11:00am
+              </div>
+              <div class="col-0 col-md-4 text-end d-none d-md-block">
+                <a href="https://www.google.com/maps/dir//Terminal+Building,+1100+Jetport+Rd,+Myrtle+Beach,+SC+29577/@33.6806408,-78.9228996,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x8900698bff43e829:0xf5480aefce5ee405!2m2!1d-78.9228996!2d33.6806408!3e0?entry=ttu"
+                  target="_blank">
+                  100 Jetport Rd, Myrtle Beach, SC 29577
+                </a>
+              </div>
+              <div class="row d-block d-md-none font-size-8em pt-2 text-center">
+                <div class="col">
+                  <a href="https://www.google.com/maps/dir//Terminal+Building,+1100+Jetport+Rd,+Myrtle+Beach,+SC+29577/@33.6806408,-78.9228996,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x8900698bff43e829:0xf5480aefce5ee405!2m2!1d-78.9228996!2d33.6806408!3e0?entry=ttu"
+                    target="_blank">
+                    100 Jetport Rd, Myrtle Beach, SC 29577
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="row border-bottom border-asphalt">
+              <div class="col">
+
+              </div>
+            </div>
+          </div>
+
+          <div class="row mt-5">
+            <div class="col-12 col-md-6 text-center">
+              <div class="elfsight-app-511da85f-6696-4a1d-9eaf-3981d7ebdfa6" data-elfsight-app-lazy></div>
+            </div>
+            <div class="col-12 col-md-6 text-center">
+              <iframe id="map-canvas" class="map_part" width="300" height="450" scrolling="no"
+                marginheight="0" marginwidth="0"
+                src="https://maps.google.com/maps?width=100%&amp;height=100%&amp;hl=en&amp;q=732 S. WACCAMAW DR., GARDEN CITY, SC 29576&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <div class="container-fluid">
+    <div class="row mt-5">
+      <div class="col">
+        <div class="text-center m-3">
+          <p class="border-top border-primary">&nbsp;</p>
+          <p>
+            All Contents<sup>&copy;</sup> 2024. Myrtle Beach Golf (MBG). All Rights<sup>&reg;</sup> Reserved.
+          </p>
+          <p>&nbsp;</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+  <script src="./js/include.js"></script>
+  <script src="./js/nav.js"></script>
+  <script src="./js/CircleChart.js"></script>
+  <script src="./js/main.js"></script>
 </body>
+
 </html>

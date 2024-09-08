@@ -1,0 +1,134 @@
+/**
+ *
+ */
+.info-grid {
+	/**
+	 *	Give the info grid a starting font size for everything within it
+	 *	to scale accordingly (meaning by using `em` values)
+	 */
+	font-size: 16px;
+}
+
+
+/**
+ *	Each cell should be 1/4 the width of the table
+ */
+.info-grid.fourths > .tr > .td {
+	width: 25%;
+}
+
+
+/**
+ *	Each cell should be 1/3 the width of the table
+ */
+.info-grid.thirds > .tr > .td {
+	width: 33.3333%;
+}
+
+
+/**
+ *	The table cells are spaced apart by default if you don't specify
+ *	a modifier class (like .info-grid.spaced)
+ */
+.info-grid > .tr > .td {
+	padding: 0 1.25em 0 0;
+}
+
+
+/**
+ *	
+ */
+.info-grid.h-center > .tr > .td {
+	text-align: center;
+}
+
+/**
+ *	When you want the table cells to have more space between them,
+ *	then specify this modifier class on the .info-grid (.spaced)
+ *	
+ *	When determining what pixel size some amount of em's equals...
+ *		y(pixels) = x(ems) * font-size
+ *							 The font-size is likely on the parent or grandparent
+ *
+ *
+ *		em = pixels / font-size
+ *	
+ */
+.info-grid.spaced > .tr > .td {
+	padding: 0 3.5em 0 0;
+}
+
+
+/**
+ *	The big chunk of text below the image and above the
+ *	button block.
+ */
+.info-grid p {
+	font-size: 1em;
+	text-align: center;
+}
+
+
+/** 
+ *	The button is floated to the left of the text. 
+ */
+.info-grid .wire-btn {
+	float: left;
+	font-size: .875em;
+}
+
+
+/** 
+ * 	The text next to the button
+ * 	Has left padding to account for the floated button
+ * 	Also a greyish color. 
+ */
+.info-grid .info-btn-blk .desc {
+	padding-left: 6.2em;
+	color: #9fa1a3;
+}
+
+
+
+
+
+/**
+ * ----------------------------------------------------------
+ * ---------------------- MEDIA QUERIES ---------------------
+ * --------------------------------------------------------*/
+
+/**
+ *	On small desktop and tablet, the font size of everything
+ *	now scales with the viewport width.
+ */
+@media screen and (max-width: 1200px) {
+	.info-grid {
+		font-size: 1.5vw;
+	}
+}
+
+
+/* Buttons that have no bg but a border, where the border
+	color matches the font color. */
+	.wire-btn {
+		display: inline-block;
+		padding: .25em .5em;
+		text-decoration: none;
+		border: 1px solid black;
+		border-radius: 2px;
+	}
+	/* In order for the wire-btn to have any color at all, you append
+		classes to it to designate the color of the font, border, and 
+		the inverted colors when you hover over the button. */
+	.wire-btn.orange {
+		background: #797a7d;
+		color: #ef7600;
+		border: 1px solid #ef7600;
+	}
+	.wire-btn.orange:visited {
+		color: #ef7600;
+	}
+	.wire-btn.orange:hover {
+		background-color: #ef7600;
+		color: #ffffff;
+	}

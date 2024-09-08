@@ -1,0 +1,74 @@
+/*
+    The Icon Bar
+*/
+.icons-bar {
+    font-size: 1.2em;
+    padding-top: .75em;
+    padding-bottom: .75em;
+    transition: all .5s;
+}
+
+/*
+    When the top nav bar
+*/
+.icons-bar.fixed {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.8);
+    left: 0;
+    right: 0;
+    width: 100%;
+    font-size: 0.75em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+/*
+    Each "Icon" in the icon bar is an anchor
+    that wraps an icon and a span
+*/
+.icons-bar a {
+    display: inline-block;
+    padding: .25em 1.5em;
+    text-decoration: none;
+    transition: color .25s linear;
+    /* Matches Brand Grey */
+    color: #797a7d; 
+}
+
+/*
+    The "Active" state for an element in the icon bar
+*/
+.icons-bar a.active {
+    /* Matches Brand Orange - Tangerine */
+    color: #ef7600;
+}
+
+/*
+    Hover effect for each element in the icon bar
+*/
+.icons-bar a:hover {
+    color: #ef7600;
+}
+
+/*
+    The actual font icon for the element in the icon bar
+*/
+.icons-bar a i {
+    font-size: 2.5em;
+}
+
+/*
+    The text of each individual icon in the bar
+*/
+.icons-bar a span {
+    font-size: 0.6em;
+    padding-top: 0.5em;
+    display: block;
+}
+
+
+.rounded-x2 {
+    border-radius: .5rem!important;
+}
