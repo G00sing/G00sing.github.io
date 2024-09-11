@@ -106,7 +106,7 @@ function getTabOneRecords() {
     $container.empty();
 
     tabOneRecords.forEach((item, idx) => {
-        const $row = $('<div class="row mb-3"></div>');
+        const $row = $('<div class="row mb-3 border-bottom border-charcoal"></div>');
 
         const columns = [
             // Position
