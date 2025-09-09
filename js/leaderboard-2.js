@@ -61,7 +61,7 @@ function getTabOneRecords() {
             gross: 0,
         },
         {
-            image: "./images/specific/short-grass.png",
+            image: "./images/specific/short-grass.jpg",
             name: "Short Grass",
             par: 0,
             rd1: "-<br />-<br />30",
