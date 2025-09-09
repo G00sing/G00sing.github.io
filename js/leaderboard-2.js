@@ -25,8 +25,8 @@ function getTabOneRecords() {
             gross: 0,
         },
         {
-            image: "./images/specific/soco.png",
-            name: "Mr SoCo",
+            image: "./images/specific/soco.jpg",
+            name: "SoCo",
             par: 0,
             rd1: "-<br />-<br />25",
             rd2: "-<br />-<br />26",
@@ -37,7 +37,7 @@ function getTabOneRecords() {
             gross: 0,
         },
         {
-            image: "./images/specific/miller-time.png",
+            image: "./images/specific/miller-time.jpg",
             name: "Miller Time",
             par: 0,
             rd1: "-<br />-<br />23",
@@ -49,7 +49,7 @@ function getTabOneRecords() {
             gross: 0,
         },
         {
-            image: "./images/specific/grizz.png",
+            image: "./images/specific/grizz.jpg",
             name: "Silent Assassin",
             par: 0,
             rd1: "-<br />-<br />19",
@@ -109,19 +109,19 @@ function getTabOneRecords() {
 
         const columns = [
             // Position
-            `<div class="col-1 col-md-1 my-auto text-center">${idx + 1}</div>`,
+            `<div class="col-1 col-md-1 my-auto text-center txt-eggshell">${idx + 1}</div>`,
             // Image
             `<div class="col-0 col-md-1 my-auto d-none d-md-block"><img src="${item.image}" class="max-w-2em rounded-circle img-fluid w-100 border border-myrtle" alt="${item.name}"></div>`,
             // Player Name
-            `<div class="col-2 col-md-2 my-auto"><p><strong>${item.name}</strong></p></div>`,
+            `<div class="col-2 col-md-2 my-auto"><p class="txt-eggshell"><strong>${item.name}</strong></p></div>`,
             // Par
             `<div class="col-2 col-md-1 my-auto text-center"><p class="txt-blueberry"><strong>${item.par}</strong></p></div>`,
             // RD's
-            `<div class="col-1 col-md-1 my-auto text-center"><p>${item.rd1}</p></div>`,
-            `<div class="col-1 col-md-1 my-auto text-center"><p>${item.rd2}</p></div>`,
-            `<div class="col-1 col-md-1 my-auto text-center"><p>${item.rd3}</p></div>`,
-            `<div class="col-1 col-md-1 my-auto text-center"><p>${item.rd4}</p></div>`,
-            `<div class="col-1 col-md-1 my-auto text-center"><p>${item.rd5}</p></div>`,
+            `<div class="col-1 col-md-1 my-auto text-center"><p class="txt-eggshell">${item.rd1}</p></div>`,
+            `<div class="col-1 col-md-1 my-auto text-center"><p class="txt-eggshell">${item.rd2}</p></div>`,
+            `<div class="col-1 col-md-1 my-auto text-center"><p class="txt-eggshell">${item.rd3}</p></div>`,
+            `<div class="col-1 col-md-1 my-auto text-center"><p class="txt-eggshell">${item.rd4}</p></div>`,
+            `<div class="col-1 col-md-1 my-auto text-center"><p class="txt-eggshell">${item.rd5}</p></div>`,
             // Net
             `<div class="col-0 col-md-1 my-auto text-center d-none d-md-block"><p class="txt-neon-green"><strong>${item.net}</strong></p></div>`,
             // Gross
