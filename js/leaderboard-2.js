@@ -111,9 +111,13 @@ function getTabOneRecords() {
             // Position
             `<div class="col-1 col-md-1 my-auto text-center txt-eggshell">${idx + 1}</div>`,
             // Image
-            `<div class="col-0 col-md-1 my-auto d-none d-md-block"><img src="${item.image}" class="max-w-2em rounded-circle img-fluid w-100 border border-myrtle" alt="${item.name}"></div>`,
+            `<div class="col-2 col-md-1 my-auto">
+                <img src="${item.image}" class="max-w-2em rounded-circle img-fluid w-100 border border-myrtle" alt="${item.name}">
+            </div>`,
             // Player Name
-            `<div class="col-2 col-md-2 my-auto"><p class="txt-eggshell"><strong>${item.name}</strong></p></div>`,
+            `<div class="col-0 col-md-2 my-auto d-none d-md-block">
+                <p class="txt-eggshell"><strong>${item.name}</strong></p>
+            </div>`,
             // Par
             `<div class="col-2 col-md-1 my-auto text-center"><p class="txt-blueberry"><strong>${item.par}</strong></p></div>`,
             // RD's
