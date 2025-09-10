@@ -115,7 +115,7 @@ function getTabOneRecords() {
                 <img src="${item.image}" class="max-w-2em rounded-circle img-fluid w-100 border border-myrtle" alt="${item.name}">
             </div>`,
             // Player Name
-            `<div class="col-0 col-md-2 my-auto d-none d-md-block">
+            `<div class="col-0 col-md-2 my-auto d-none d-md-block ">
                 <p class="txt-eggshell"><strong>${item.name}</strong></p>
             </div>`,
             // Par
