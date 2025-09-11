@@ -63,7 +63,7 @@ function getTabOneRecords() {
         {
             image: "./images/specific/short-grass.jpg",
             name: "Short Grass",
-            par: -7,
+            par: 0,
             rd1: "-<br />-<br />30",
             rd2: "-<br />-<br />31",
             rd3: "-<br />-<br />30",
@@ -75,7 +75,7 @@ function getTabOneRecords() {
         {
             image: "./images/specific/burnsie.jpg",
             name: "Burnsie",
-            par: 7,
+            par: 0,
             rd1: "-<br />-<br />27",
             rd2: "-<br />-<br />28",
             rd3: "-<br />-<br />28",
