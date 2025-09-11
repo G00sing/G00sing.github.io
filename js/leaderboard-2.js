@@ -63,7 +63,7 @@ function getTabOneRecords() {
         {
             image: "./images/specific/short-grass.jpg",
             name: "Short Grass",
-            par: 0,
+            par: -7,
             rd1: "-<br />-<br />30",
             rd2: "-<br />-<br />31",
             rd3: "-<br />-<br />30",
@@ -75,7 +75,7 @@ function getTabOneRecords() {
         {
             image: "./images/specific/burnsie.jpg",
             name: "Burnsie",
-            par: 0,
+            par: 7,
             rd1: "-<br />-<br />27",
             rd2: "-<br />-<br />28",
             rd3: "-<br />-<br />28",
@@ -107,6 +107,8 @@ function getTabOneRecords() {
     tabOneRecords.forEach((item, idx) => {
         const $row = $('<div class="row mb-3 border-bottom border-charcoal"></div>');
 
+        const parDisplay = item.par === 0 ? "E" : item.par > 0 ? `+${item.par}` : item.par;
+
         const columns = [
             // Position
             `<div class="col-1 col-md-1 my-auto text-center txt-eggshell">${idx + 1}</div>`,
@@ -125,7 +127,7 @@ function getTabOneRecords() {
             //     </p>
             // </div>`,
             // Par
-            `<div class="col-2 col-md-1 my-auto text-center"><p class="txt-blueberry"><strong>${item.par}</strong></p></div>`,
+            `<div class="col-2 col-md-1 my-auto text-center"><p class="txt-blueberry"><strong>${parDisplay}</strong></p></div>`,
             // RD's
             `<div class="col-1 col-md-1 my-auto text-center"><p class="txt-eggshell">${item.rd1}</p></div>`,
             `<div class="col-1 col-md-1 my-auto text-center"><p class="txt-eggshell">${item.rd2}</p></div>`,
