@@ -3,8 +3,8 @@ function getTabOneRecords() {
         {
             image: "./images/specific/jobu.jpg",
             name: "JoBu",
-            par: 6,
-            rd1: "76<br />92<br />19",
+            par: 3,
+            rd1: "73<br />92<br />19",
             rd2: "74<br />93<br />19",
             rd3: "-<br />-<br />19",
             rd4: "-<br />-<br />19",
