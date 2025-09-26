@@ -21,7 +21,7 @@ function getTabOneRecords() {
             rd3: "67<br />94<br />27",
             rd4: "68<br />95<br />27",
             rd5: "66<br />94<br />28",
-            net: 342,
+            net: 343,
             gross: 480,
         },
         {
